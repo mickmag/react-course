@@ -1,19 +1,14 @@
-import Backdrop from "./components/Backdrop";
 import Todo from "./components/Todo";
-import Modal from "./components/Modal"
 
 function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo text='Learn React'/>      
-      <Todo text='Master React'/>      
-      <Todo text='Explore full React course'/>      
-      <Modal />
-      <Backdrop />
+      <Todo text="Learn React" />
+      <Todo text="Master React" />
+      <Todo text="Explore full React course" />
     </div>
   );
 }
-
 
 export default App;
